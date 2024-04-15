@@ -112,6 +112,16 @@ function main() {
                 }
 
             }
+
+            for (let i: number = 1; i < array_revisit.length; i++) {
+
+                somme += array_revisit[i]
+            }
+
+            console.log(somme % 10)
+
+        } else {
+            console.log("une erreur est survenue...")
         }
     } catch {
         console.log("une erreur est survenue")
